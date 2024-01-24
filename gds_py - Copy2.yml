@@ -1,0 +1,16 @@
+name: gds_py_t
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - mamba
+  - notebook
+  - jupyterhub
+  - jupyterlab
+  - conda-forge::blas[build=openblas]
+  - pip
+  - xlsxwriter
+  - pooch
+  - ipykernel
+  - qtconsole
+gds_env_version: 8.0
